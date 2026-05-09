@@ -23,7 +23,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/WebStudio/",
+  base: "/webstudio/",
   resolve: {
     alias: {
       // Alias @ to the src directory
