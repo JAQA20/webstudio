@@ -1,10 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";
 import { Language, translations } from "../i18n";
+import laComandaImage from "./img/LaComanda-lleno.png";
 
 const projectImages = [
-  "https://drive.google.com/file/d/1VfmZiQ7V88Y7a0TThlY_LDwby5k0nPkR/view?usp=sharing",
-  // "https://images.unsplash.com/photo-1734193488029-fa4fe95cd526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwZGFzaGJvYXJkJTIwZGFyayUyMFVJfGVufDF8fHx8MTc3ODIxMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+  laComandaImage,
   "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxwcmVtaXVtJTIwU2FhUyUyMGFwcGxpY2F0aW9uJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc3ODIxMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
   "https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwZGFzaGJvYXJkJTIwZGFyayUyMFVJfGVufDF8fHx8MTc3ODIxMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
 ];
