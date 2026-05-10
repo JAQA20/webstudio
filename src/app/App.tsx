@@ -13,11 +13,12 @@ import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
 import { Language, translations } from "./i18n";
 
 export default function App() {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("es");
   const t = translations[language];
 
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white dark">
+      <main>
       <Hero language={language} setLanguage={setLanguage} t={t} />
       <Services t={t} />
       <FeaturedProjects t={t} />
@@ -29,6 +30,7 @@ export default function App() {
       <FinalCTA t={t} />
       <Footer t={t} />
       <FloatingWhatsApp />
+      </main>
     </div>
   );
 }

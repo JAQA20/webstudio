@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jaqa20.github.io/webstudio/sitemap.xml

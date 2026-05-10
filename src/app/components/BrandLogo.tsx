@@ -21,7 +21,7 @@ export function BrandLogo({
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
-        aria-label="Web Studio"
+        aria-label="JQ Web Studio"
         role="img"
       >
         <path
@@ -38,13 +38,13 @@ export function BrandLogo({
 
   return (
     <svg
-      width="200"
+      width="280"
       height="48"
-      viewBox="0 0 200 48"
+      viewBox="0 0 280 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-      aria-label="Web Studio"
+      aria-label="JQ Web Studio"
       role="img"
     >
       <path
@@ -59,12 +59,12 @@ export function BrandLogo({
         x="58"
         y="30"
         fill={color}
-        fontSize="20"
+        fontSize="17"
         fontWeight="300"
         letterSpacing="1.5"
         fontFamily="system-ui, -apple-system, sans-serif"
       >
-        WEB STUDIO
+        JQ WEB STUDIO
       </text>
     </svg>
   );

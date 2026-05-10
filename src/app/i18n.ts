@@ -4,11 +4,11 @@ export const translations = {
   en: {
     languageToggle: { en: "EN", es: "ES" },
     hero: {
-      badge: "Web Development Studio",
-      titleLine1: "Building premium",
-      titleHighlight: "digital experiences",
+      badge: "Web Development & Software Studio",
+      titleLine1: "Building websites, systems and",
+      titleHighlight: "premium digital experiences",
       description:
-        "We craft scalable, high-performance web applications and SaaS platforms for modern businesses that demand excellence.",
+        "We build scalable websites, custom software and SaaS platforms for modern businesses that demand performance, clarity and long-term growth.",
       primaryButton: "Book a Call",
       secondaryButton: "View Projects",
       imageAlt: "Premium dashboard interface",
@@ -16,7 +16,7 @@ export const translations = {
     services: {
       heading: "Our Services",
       description:
-        "Comprehensive software development solutions designed for modern businesses",
+        "Comprehensive web development and custom software solutions designed for modern businesses.",
       items: [
         {
           title: "Fullstack Development",
@@ -52,7 +52,7 @@ export const translations = {
     },
     featuredProjects: {
       heading: "Featured Projects",
-      description: "Delivering exceptional results for leading companies",
+      description: "Web development, custom systems and digital products built to deliver measurable business results.",
       cta: "View Case Study",
       items: [
         {
@@ -85,7 +85,7 @@ export const translations = {
           title: "Landing Page",
           description:
             "High-converting one-page website for showcasing your business, offer, or personal brand.",
-          price: "$350",
+          price: "$400",
           note: "Starting price in USD",
           featured: false,
           features: [
@@ -99,7 +99,7 @@ export const translations = {
           title: "Business Website",
           description:
             "Professional multi-page website for companies that need a stronger online presence.",
-          price: "$700",
+          price: "$800",
           note: "Starting price in USD",
           featured: true,
           features: [
@@ -113,7 +113,7 @@ export const translations = {
           title: "E-commerce Website",
           description:
             "Online store with catalog, product pages, shopping flow, and essential management tools.",
-          price: "$1,200",
+          price: "$1,250",
           note: "Starting price in USD",
           featured: false,
           features: [
@@ -152,8 +152,7 @@ export const translations = {
         ],
         startingAtLabel: "Starting at",
         price: "$3,500+",
-        note:
-          "Custom pricing based on modules, integrations, user roles, automations, and infrastructure requirements.",
+        note: "Custom pricing based on modules, integrations, user roles, automations, and infrastructure requirements.",
         features: [
           "Architecture tailored to your operation",
           "Custom workflows and permissions",
@@ -275,7 +274,7 @@ export const translations = {
     footer: {
       brand: "Studio",
       description:
-        "Premium fullstack development studio building scalable digital products for modern businesses.",
+        "JQ Web Studio is a premium web development and custom software studio building scalable digital products for modern businesses.",
       servicesHeading: "Services",
       companyHeading: "Company",
       services: [
@@ -285,7 +284,7 @@ export const translations = {
         "UI/UX Implementation",
       ],
       company: ["About", "Projects", "Process", "Contact"],
-      copyright: "© 2026 Studio. All rights reserved.",
+      copyright: "© 2026 JQ Web Studio. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
     },
@@ -295,11 +294,11 @@ export const translations = {
   es: {
     languageToggle: { en: "EN", es: "ES" },
     hero: {
-      badge: "Estudio de Desarrollo Web",
-      titleLine1: "Construimos",
+      badge: "Estudio de Desarrollo Web y Software",
+      titleLine1: "Construimos páginas web, sistemas y",
       titleHighlight: "experiencias digitales premium",
       description:
-        "Creamos aplicaciones web escalables y de alto rendimiento, además de plataformas SaaS para negocios modernos que exigen excelencia.",
+        "Desarrollamos páginas web, software a medida y plataformas SaaS para negocios que buscan rendimiento, escalabilidad y una presencia digital profesional.",
       primaryButton: "Agendar Llamada",
       secondaryButton: "Ver Proyectos",
       imageAlt: "Interfaz premium de dashboard",
@@ -307,7 +306,7 @@ export const translations = {
     services: {
       heading: "Nuestros Servicios",
       description:
-        "Soluciones integrales de desarrollo de software diseñadas para negocios modernos",
+        "Soluciones integrales de desarrollo web y software a medida diseñadas para negocios modernos.",
       items: [
         {
           title: "Desarrollo Fullstack",
@@ -343,7 +342,7 @@ export const translations = {
     },
     featuredProjects: {
       heading: "Proyectos Destacados",
-      description: "Entregando resultados excepcionales para empresas líderes",
+      description: "Desarrollo web, sistemas personalizados y productos digitales creados para generar resultados reales.",
       cta: "Ver Caso de Estudio",
       items: [
         {
@@ -376,7 +375,7 @@ export const translations = {
           title: "Landing Page",
           description:
             "Sitio de una sola página enfocado en conversión para presentar tu negocio, oferta o marca personal.",
-          price: "$350",
+          price: "$400",
           note: "Precio inicial en USD",
           featured: false,
           features: [
@@ -390,7 +389,7 @@ export const translations = {
           title: "Sitio Web Empresarial",
           description:
             "Sitio profesional de varias páginas para empresas que necesitan una presencia digital más sólida.",
-          price: "$700",
+          price: "$800",
           note: "Precio inicial en USD",
           featured: true,
           features: [
@@ -404,7 +403,7 @@ export const translations = {
           title: "Tienda en Línea",
           description:
             "E-commerce con catálogo, fichas de producto, flujo de compra y herramientas esenciales de gestión.",
-          price: "$1,200",
+          price: "$1,250",
           note: "Precio inicial en USD",
           featured: false,
           features: [
@@ -443,8 +442,7 @@ export const translations = {
         ],
         startingAtLabel: "Desde",
         price: "$3,500+",
-        note:
-          "Precio personalizado según módulos, integraciones, roles de usuario, automatizaciones y requerimientos de infraestructura.",
+        note: "Precio personalizado según módulos, integraciones, roles de usuario, automatizaciones y requerimientos de infraestructura.",
         features: [
           "Arquitectura adaptada a tu operación",
           "Flujos y permisos personalizados",
@@ -566,7 +564,7 @@ export const translations = {
     footer: {
       brand: "Studio",
       description:
-        "Estudio premium de desarrollo fullstack que construye productos digitales escalables para negocios modernos.",
+        "JQ Web Studio es un estudio de desarrollo web y software a medida que construye productos digitales escalables para negocios modernos.",
       servicesHeading: "Servicios",
       companyHeading: "Empresa",
       services: [
@@ -576,7 +574,7 @@ export const translations = {
         "Implementación UI/UX",
       ],
       company: ["Nosotros", "Proyectos", "Proceso", "Contacto"],
-      copyright: "© 2026 Studio. Todos los derechos reservados.",
+      copyright: "© 2026 JQ Web Studio. Todos los derechos reservados.",
       privacy: "Política de Privacidad",
       terms: "Términos del Servicio",
     },

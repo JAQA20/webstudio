@@ -20,7 +20,7 @@ export function Hero({ language, setLanguage, t }: HeroProps) {
       </div>
 
       <div className="absolute top-6 left-6 right-6 z-20 flex items-center justify-between gap-4">
-        <a href="#" aria-label="Web Studio home" className="shrink-0">
+        <a href="#" aria-label="JQ Web Studio inicio" className="shrink-0">
           <BrandLogo theme="dark" className="h-10 w-auto" />
         </a>
 
@@ -118,21 +118,21 @@ export function Hero({ language, setLanguage, t }: HeroProps) {
           </button>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
           className="mt-20 relative"
         >
-          {/* <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10" />
+           <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10" />
           <div className="rounded-2xl overflow-hidden border border-white/10 shadow-2xl backdrop-blur-sm bg-white/5 p-2">
             <img
               src="https://images.unsplash.com/photo-1625838144804-300f3907c110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBzb2Z0d2FyZSUyMGRldmVsb3BtZW50JTIwZGFzaGJvYXJkJTIwZGFyayUyMFVJfGVufDF8fHx8MTc3ODIxMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080"
               alt={t.hero.imageAlt}
               className="w-small rounded-md"
             />
-          </div> */}
-        </motion.div>
+          </div> 
+        </motion.div> */}
       </div>
     </section>
   );
